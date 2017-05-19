@@ -3,7 +3,7 @@
 class StatPane : public Pane
 {
 public:
-StatPane(int x,int y,int w,int h);
-void draw();
+  StatPane(int x,int y,int w,int h);
+  void draw();
 };
 #endif

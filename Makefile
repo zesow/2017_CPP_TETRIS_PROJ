@@ -1,6 +1,8 @@
 CC = g++
 TARGET = tetris
-SOURCES = Tetris.cpp \
+
+SOURCES = main.cpp \
+					Tetris.cpp \
 					Pane.cpp \
 					BoardPane.cpp \
 					InfoPane.cpp \
@@ -8,7 +10,9 @@ SOURCES = Tetris.cpp \
 					StatPane.cpp \
 					NextPane.cpp \
 					Block.cpp \
-					main.cpp
+					O_Block.cpp \
+					Stacked_Block.cpp
+
 
 LDFLAGS = -lncurses
 all:
